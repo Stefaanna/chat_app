@@ -28,12 +28,17 @@ class Conversation extends React.Component {
     };
 
     componentDidMount() {
-        setInterval(() => {
+        this.timeInterval = setInterval(() => {
             this.setState({
                 time: distanceInWordsToNow(this.props.date)
             });
         }, 1000);
     }
+
+    /*componentWillUnmount() {
+            clearInterval(this.timeInterval);
+            console.log("cleared it");
+    }*/
 
     render() {
         const { classes } = this.props;
