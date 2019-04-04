@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2949e729-3b8c-4df7-97b3-e16e089a5564" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercise/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/src/seagulls.MOV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Conversation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/videoplayer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/Controls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/Count.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/Joke.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/MainContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/MyApp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/MyInfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/Product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/ToDoItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/ToDoList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/VideoPlayer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/VideoPlayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/birdflight.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/bars-graphics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/fullscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/loop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/mute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/playpause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/volume-adjustment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/icons/volume-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/products.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/seagulls.MOV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/components/todoData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../player/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../video-player" beforeDir="false" afterPath="$PROJECT_DIR$/../video-player" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/videoplayer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/VideoPlayer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/VideoPlayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/birdflight.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/icons/fullscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/icons/playpause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/icons/volume-adjustment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/components/seagulls.MOV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../videoplayer/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,56 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ClippedDrawer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2074">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Conversation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ConversationsList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="44" selection-start-line="44" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MyChatBubble.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="920" />
     <option name="y" value="7" />
     <option name="width" value="1005" />
@@ -234,13 +108,6 @@
               <item name="hangouts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangouts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangouts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,18 +189,25 @@
       <workItem from="1554307629693" duration="187000" />
       <workItem from="1554368294244" duration="161000" />
       <workItem from="1554368523100" duration="54000" />
-      <workItem from="1554368641203" duration="6833000" />
+      <workItem from="1554368641203" duration="7602000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1554379508321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554379508321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99565000" />
+    <option name="totallyTimeSpent" value="100334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4388632" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13945803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -345,7 +219,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32577905" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -355,6 +229,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -415,43 +293,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/data/constants.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/NewConversation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SendMessageBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/OpenChat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/data/conversationData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -523,6 +364,43 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NewConversation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OpenChat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SendMessageBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="62" lean-forward="true" selection-start-column="62" selection-end-column="62" />
         </state>
       </provider>
     </entry>
