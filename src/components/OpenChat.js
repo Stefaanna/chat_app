@@ -43,19 +43,7 @@ class OpenChat extends React.Component {
     scrollToBottom = () => {
         this.messagesEnd.current.scrollIntoView({behaviour: 'smooth'})
     };
-
-    /*componentWillUpdate() {
-        const node = ReactDOM.findDOMNode(this);
-        this.shouldScrollToBottom = node.scrollTop + node.clientHeight + 100 >= node.scrollHeight;
-    }
-
-    componentDidUpdate() {
-        if (this.shouldScrollToBottom) {
-            const node = ReactDOM.findDOMNode(this);
-            node.scrollTop = node.scrollHeight;
-        }
-    }*/
-
+    
     render() {
         const { classes } = this.props;
 
