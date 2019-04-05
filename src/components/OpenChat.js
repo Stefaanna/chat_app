@@ -5,12 +5,14 @@ import ChatBubble from "./ChatBubble";
 import MyChatBubble from "./MyChatBubble";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import './styles.css'
+import ReactDOM from "react-dom";
 
 const styles = theme => ({
     root: {
         width: "100%",
         margin: theme.spacing.unit * 5,
         marginTop: 20,
+        marginBottom: 70,
         // backgroundColor: '#e5e5e5',
 
     },
@@ -27,6 +29,32 @@ class OpenChat extends React.Component {
     state = {
         messages: '',
     };
+
+    messagesEnd = React.createRef();
+
+    componentDidMount() {
+        this.scrollToBottom();
+    }
+
+    componentDidUpdate() {
+        this.scrollToBottom();
+    }
+
+    scrollToBottom = () => {
+        this.messagesEnd.current.scrollIntoView({behaviour: 'smooth'})
+    };
+
+    /*componentWillUpdate() {
+        const node = ReactDOM.findDOMNode(this);
+        this.shouldScrollToBottom = node.scrollTop + node.clientHeight + 100 >= node.scrollHeight;
+    }
+
+    componentDidUpdate() {
+        if (this.shouldScrollToBottom) {
+            const node = ReactDOM.findDOMNode(this);
+            node.scrollTop = node.scrollHeight;
+        }
+    }*/
 
     render() {
         const { classes } = this.props;
@@ -65,6 +93,7 @@ class OpenChat extends React.Component {
                 <React.Fragment>
                     <CssBaseline />
                     {chatLog}
+                    <span ref={this.messagesEnd}/>
                     {newMessages}
                 </React.Fragment>
             </div>
