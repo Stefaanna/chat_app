@@ -83,12 +83,12 @@ class ClippedDrawer extends React.Component {
 
     componentDidUpdate() {
         // localStorage.setItem("convData", JSON.stringify(conversationData));
-        localStorage.setItem("convData", JSON.stringify(myConversations));
+        // localStorage.setItem("convData", JSON.stringify(myConversations));
         localStorage.setItem("lastOpenConversation", JSON.stringify(this.state.key));
     }
 
     sortConversations = () => {
-        let keys = this.state.sortedKeys.filter(key => key !== (this.state.key))
+        let keys = this.state.sortedKeys.filter(key => key !== (this.state.key));
         keys.unshift(this.state.key);
         this.setState({
             sortedKeys: keys
@@ -121,6 +121,7 @@ class ClippedDrawer extends React.Component {
         //for localStorage
         myConversations[id-1].text.push(['2',newMessage, new Date().toDateString()]);
         console.log(myConversations[id-1].text);
+        localStorage.setItem("convData", JSON.stringify(myConversations));
     }
 
     render() {
