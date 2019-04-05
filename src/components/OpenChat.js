@@ -5,7 +5,6 @@ import ChatBubble from "./ChatBubble";
 import MyChatBubble from "./MyChatBubble";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import './styles.css'
-import ReactDOM from "react-dom";
 
 const styles = theme => ({
     root: {
@@ -13,8 +12,6 @@ const styles = theme => ({
         margin: theme.spacing.unit * 5,
         marginTop: 20,
         marginBottom: 70,
-        // backgroundColor: '#e5e5e5',
-
     },
     toolbar: theme.mixins.toolbar,
     date: {
@@ -43,7 +40,7 @@ class OpenChat extends React.Component {
     scrollToBottom = () => {
         this.messagesEnd.current.scrollIntoView({behaviour: 'smooth'})
     };
-    
+
     render() {
         const { classes } = this.props;
 

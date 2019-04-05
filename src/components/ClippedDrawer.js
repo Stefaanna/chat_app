@@ -10,11 +10,7 @@ import SendMessageBar from "./SendMessageBar";
 import ChatHeader from "./ChatHeader";
 import Conversation from "./Conversation";
 import conversationData from './data/conversationData'
-// import * as convData from './data/convData.json'
 
-// const conversationData = JSON.parse(convData);
-
-const convKeys = Array(conversationData.length).fill(0).map((e,i) => i+1);
 
 const styles = theme => ({
     root: {
@@ -46,24 +42,53 @@ const styles = theme => ({
 
 });
 
+
+
+
+/*local Storage*/
+
+// const convData = localStorage.getItem("localStorageTest");
+const convData = JSON.parse(localStorage.getItem("convData"),"[]");
+
+// const convKeys = Array(conversationData.length).fill(0).map((e,i) => i+1);
+const convKeys = Array(convData.length).fill(0).map((e,i) => i+1);
+const convMessages = Array(convData.length).fill(0).map((e,i) => {return {id: i+1, messagesText:[''], messagesDate:['']}});
+// console.log(convMessages);
+
+// const lastOpenConversation = localStorage.getItem("lastOpenConversation");
+const lastOpenConversation = 1;
+
+/*i used this for saving messages in localStorage*/
+const myConversations = conversationData;
+
+
 class ClippedDrawer extends React.Component {
     state = {
-        key: 1,
-        conversation: conversationData[0],
-        name: conversationData[0].name,
-        messages: [
-            {id: 1, messagesText:[''], messagesDate:['']},
-            {id: 2, messagesText:[''], messagesDate:['']},
-            {id: 3, messagesText:[''], messagesDate:['']},
-            {id: 4, messagesText:[''], messagesDate:['']},
-            {id: 5, messagesText:[''], messagesDate:['']},
-        ],
+        // key: 2,
+        key: lastOpenConversation? lastOpenConversation : 1,
+        // conversation: conversationData[0],
+        conversation: convData[lastOpenConversation? (lastOpenConversation-1) : 0],
+        // name: conversationData[0].name,
+        name: convData[lastOpenConversation? (lastOpenConversation-1) : 0].name,
+        messages: convMessages,
         currentMessage: [''],
         sortedKeys: convKeys
     };
 
+    componentDidMount() {
+        console.log("the last opened conversation was " + lastOpenConversation);
+        // localStorage.setItem("convData", JSON.stringify(conversationData));
+        localStorage.setItem("convData", JSON.stringify(myConversations));
+    }
+
+    componentDidUpdate() {
+        // localStorage.setItem("convData", JSON.stringify(conversationData));
+        localStorage.setItem("convData", JSON.stringify(myConversations));
+        localStorage.setItem("lastOpenConversation", JSON.stringify(this.state.key));
+    }
+
     sortConversations = () => {
-        let keys = this.state.sortedKeys.filter(key => key != this.state.key)
+        let keys = this.state.sortedKeys.filter(key => key !== (this.state.key))
         keys.unshift(this.state.key);
         this.setState({
             sortedKeys: keys
@@ -92,7 +117,10 @@ class ClippedDrawer extends React.Component {
                     messagesText: message.id === id ? message.messagesText.concat(newMessage) : message.messagesText,
                     messagesDate: message.id === id ? message.messagesDate.concat(new Date()) : message.messagesDate,
             }))
-        }))
+        }));
+        //for localStorage
+        myConversations[id-1].text.push(['2',newMessage, new Date().toDateString()]);
+        console.log(myConversations[id-1].text);
     }
 
     render() {
@@ -142,6 +170,25 @@ class ClippedDrawer extends React.Component {
                                         (new Date(conversationData[index - 1].text[conversationData[index - 1].text.length - 1][2]))
                                 }
                             />)
+                        /*<Conversation
+                        // className={classes.conversation}
+                        key={index}
+                        onClick={this.handleClick(convData[index-1])}
+                        avatar={convData[index - 1].avatar}
+                        name={convData[index - 1].name}
+                        lastMessage={
+                        this.state.messages[convData[index - 1].id - 1].messagesText[this.state.messages[convData[index-1].id - 1].messagesText.length - 1] ?
+                            ("You: " + this.state.messages[convData[index-1].id - 1].messagesText[this.state.messages[convData[index-1].id - 1].messagesText.length - 1]) :
+                            (convData[index - 1].text[convData[index-1].text.length - 1][0] === "1" ?
+                                convData[index - 1].text[convData[index - 1].text.length - 1][1] :
+                                "You: " + convData[index - 1].text[convData[index - 1].text.length - 1][1])
+                    }
+                        date={
+                        this.state.messages[convData[index - 1].id - 1].messagesText[this.state.messages[convData[index - 1].id - 1].messagesText.length - 1] ?
+                            (this.state.messages[convData[index - 1].id - 1].messagesDate[this.state.messages[convData[index - 1].id - 1].messagesDate.length - 1]) :
+                            (new Date(convData[index - 1].text[convData[index - 1].text.length - 1][2]))
+                    }
+                        />)*/
                     }
                 </List>
             </Drawer>
