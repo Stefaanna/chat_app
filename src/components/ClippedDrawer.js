@@ -48,11 +48,11 @@ const styles = theme => ({
 /*local Storage*/
 
 // const convData = localStorage.getItem("localStorageTest");
-const convData = JSON.parse(localStorage.getItem("convData"),"[]");
+// const convData = JSON.parse(localStorage.getItem("convData"),"[]");
 
 // const convKeys = Array(conversationData.length).fill(0).map((e,i) => i+1);
-const convKeys = Array(convData.length).fill(0).map((e,i) => i+1);
-const convMessages = Array(convData.length).fill(0).map((e,i) => {return {id: i+1, messagesText:[''], messagesDate:['']}});
+const convKeys = Array(conversationData.length).fill(0).map((e,i) => i+1);
+const convMessages = Array(conversationData.length).fill(0).map((e,i) => {return {id: i+1, messagesText:[''], messagesDate:['']}});
 // console.log(convMessages);
 
 // const lastOpenConversation = localStorage.getItem("lastOpenConversation");
@@ -64,27 +64,26 @@ const myConversations = conversationData;
 
 class ClippedDrawer extends React.Component {
     state = {
-        // key: 2,
         key: lastOpenConversation? lastOpenConversation : 1,
         // conversation: conversationData[0],
-        conversation: convData[lastOpenConversation? (lastOpenConversation-1) : 0],
+        conversation: conversationData[lastOpenConversation? (lastOpenConversation-1) : 0],
         // name: conversationData[0].name,
-        name: convData[lastOpenConversation? (lastOpenConversation-1) : 0].name,
+        name: conversationData[lastOpenConversation? (lastOpenConversation-1) : 0].name,
         messages: convMessages,
         currentMessage: [''],
         sortedKeys: convKeys
     };
 
     componentDidMount() {
-        console.log("the last opened conversation was " + lastOpenConversation);
+        // console.log("the last opened conversation was " + lastOpenConversation);
         // localStorage.setItem("convData", JSON.stringify(conversationData));
-        localStorage.setItem("convData", JSON.stringify(myConversations));
+        // localStorage.setItem("convData", JSON.stringify(myConversations));
     }
 
     componentDidUpdate() {
         // localStorage.setItem("convData", JSON.stringify(conversationData));
         // localStorage.setItem("convData", JSON.stringify(myConversations));
-        localStorage.setItem("lastOpenConversation", JSON.stringify(this.state.key));
+        // localStorage.setItem("lastOpenConversation", JSON.stringify(this.state.key));
     }
 
     sortConversations = () => {
@@ -118,10 +117,10 @@ class ClippedDrawer extends React.Component {
                     messagesDate: message.id === id ? message.messagesDate.concat(new Date()) : message.messagesDate,
             }))
         }));
-        //for localStorage
+        /*//for localStorage
         myConversations[id-1].text.push(['2',newMessage, new Date().toDateString()]);
         console.log(myConversations[id-1].text);
-        localStorage.setItem("convData", JSON.stringify(myConversations));
+        localStorage.setItem("convData", JSON.stringify(myConversations));*/
     }
 
     render() {
