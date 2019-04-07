@@ -4,7 +4,6 @@
     <list default="true" id="2949e729-3b8c-4df7-97b3-e16e089a5564" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ClippedDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ClippedDrawer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../video-player" beforeDir="false" afterPath="$PROJECT_DIR$/../video-player" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ClippedDrawer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1108">
-              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+            <state relative-caret-position="3502">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -33,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Conversation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="170">
               <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -54,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/OpenChat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="260">
               <caret line="17" selection-start-line="17" selection-end-line="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -126,7 +125,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="875" />
-    <option name="width" value="1054" />
+    <option name="width" value="1055" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,6 +248,8 @@
       <workItem from="1554368641203" duration="8778000" />
       <workItem from="1554453703741" duration="14446000" />
       <workItem from="1554541917382" duration="403000" />
+      <workItem from="1554556285866" duration="169000" />
+      <workItem from="1554668057155" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1554379508321</created>
@@ -299,17 +300,23 @@
       <option name="project" value="LOCAL" />
       <updated>1554469873424</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated the ClippedDrawer">
+      <created>1554556421885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554556421885</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116359000" />
+    <option name="totallyTimeSpent" value="117129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="701" y="0" width="842" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="700" y="0" width="844" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30186334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30111524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -323,7 +330,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32714286" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32428572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32428572" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -336,7 +343,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Updated scrollToBottom" />
     <MESSAGE value="Did something with the local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did something with the local storage" />
+    <MESSAGE value="Updated the ClippedDrawer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the ClippedDrawer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -471,17 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/data/conversationData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ClippedDrawer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1108">
-          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+        <state relative-caret-position="3502">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -490,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Conversation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="170">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -498,9 +499,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/data/conversationData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/OpenChat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="260">
           <caret line="17" selection-start-line="17" selection-end-line="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
