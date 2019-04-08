@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
@@ -42,7 +41,9 @@ class MyChatBubble extends React.Component {
 }
 
 MyChatBubble.propTypes = {
-    classes: PropTypes.object.isRequired,
+    dateClass: Object.string,
+    chatLine: Object.string,
+    avatarIcon: Object.string,
 };
 
 export default MyChatBubble;

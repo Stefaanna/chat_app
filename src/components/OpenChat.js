@@ -23,10 +23,6 @@ const styles = theme => ({
 });
 
 class OpenChat extends React.Component {
-    state = {
-        messages: '',
-    };
-
     messagesEnd = React.createRef();
 
     componentDidMount() {
@@ -44,31 +40,20 @@ class OpenChat extends React.Component {
     render() {
         const { classes } = this.props;
 
-        // console.log(this.props.conversation);
         const chatLog = this.props.conversation.text.map((message, index) =>
             (this.props.conversation.text[index][0] === '1' ?
-                <ChatBubble
-                    avatarIcon={this.props.conversation.avatar}
-                    chatLine={message[1]}
-                    dateClass={classes.date}
-                    chatDate={new Date(message[2])}
-                /> :
-                <MyChatBubble
-                    chatLine={message[1]}
-                    dateClass={classes.date}
-                    chatDate={new Date(message[2])}
-                />
+                    <ChatBubble
+                        avatarIcon={this.props.conversation.avatar}
+                        chatLine={message[1]}
+                        dateClass={classes.date}
+                        chatDate={new Date(message[2])}
+                    /> :
+                    <MyChatBubble
+                        chatLine={message[1]}
+                        dateClass={classes.date}
+                        chatDate={new Date(message[2])}
+                    />
             )
-        );
-
-        const newMessages = this.props.newMessageText.map((myMessage, index) =>
-            myMessage.trim() ?
-                <MyChatBubble
-                    chatLine={myMessage}
-                    dateClass={classes.date}
-                    chatDate={this.props.newMessageDate[index]}
-                />
-                : null
         );
 
         return (
@@ -79,7 +64,6 @@ class OpenChat extends React.Component {
                     <CssBaseline />
                     {chatLog}
                     <span ref={this.messagesEnd}/>
-                    {newMessages}
                 </React.Fragment>
             </div>
         )
